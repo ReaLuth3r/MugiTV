@@ -143,8 +143,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function promptForSeasonAndEpisode(videoId) {
-  const season = prompt("Enter season number:");
-  const episode = prompt("Enter episode number:");
+  const season = prompt("הזינו מספר עונה:");
+  const episode = prompt("הזינו מספר פרק:");
   if (!season || !episode) {
     return;
   } else if (isNaN(season) || isNaN(episode)) {
